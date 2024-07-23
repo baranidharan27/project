@@ -144,11 +144,11 @@ Modulation is the process of varying one or more properties of a carrier signal 
 
    The phase of the carrier wave changes according to the information signal.The amplitude and frequency remain constant.
 
-   ![alt text](<Screenshot from 2024-07-23 12-07-43.png>)
+   ![alt text](<EE/Screenshot from 2024-07-23 15-04-39.png>)
 
 # **Types of Emitters based on PRI**
 
-![alt text](<Screenshot from 2024-07-23 12-07-55.png>)
+![alt text](<EE/Screenshot from 2024-07-23 15-04-54.png>)
 
 # **The parameters that the Dataset contains**
 
