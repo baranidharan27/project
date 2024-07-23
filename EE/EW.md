@@ -3,7 +3,7 @@
 Electromagnetic warfare or electronic warfare(EW) is warfare involving the use of the electromagnetic spectrum (EM spectrum) to control the spectrum, attack an enemy, or impede enemy operations.
 
 **Visual representation of how Electromagnetic spectrum propagates**
-![alt text](<EE/Screenshot from 2024-07-23 15-03-32.png>)
+![alt text](<Screenshot from 2024-07-23 12-04-06.png>)
 Electronic warfare consists of three major subdivisions:
 
   * electronic  attack (EA)
@@ -75,12 +75,12 @@ The levels of unwanted reflections and interference, which need to be minimized 
 These parameters are essential for effective radar operation, enabling accurate detection, tracking, and identification of objects in the radar's field of view.
 
 # **Frequency Letter Bands**
-![alt text](EE/Screenshot from 2024-07-23 15-03-47.png)
+![alt text](<Screenshot from 2024-07-23 12-04-29.png>)
 
 The marked frequency bands are the frequency bands that are used in Electronic warfare. The dataset contains the frequency value ranges from \>500MHz to 18GHz.
 
 # **How radar calculates the range?**
-![alt text](<EE/Screenshot from 2024-07-23 15-04-12.png>)
+![alt text](<Screenshot from 2024-07-23 12-04-40.png>)
 
 **Diagram shows the round trip of radar signal**
 
@@ -109,7 +109,7 @@ A Doppler radar is a specialized radar that uses the [Doppler effect](https://en
 # **Types of emitter**
 
 ## **1)Continuous wave (CW) emitter**
-![alt text](<EE/Screenshot from 2024-07-23 15-04-21.png>)
+![alt text](<Screenshot from 2024-07-23 12-04-52.png>)
 
 **Amplitude:** The signal maintains a constant amplitude.
 
@@ -118,7 +118,7 @@ A Doppler radar is a specialized radar that uses the [Doppler effect](https://en
 **Continuous:** The signal is continuous with no interruptions.
 
 ## **2)Pulsed Emitter**
-![alt text](<EE/Screenshot from 2024-07-23 15-04-29.png>)
+![alt text](<Screenshot from 2024-07-23 12-07-22.png>)
 
 **Amplitude:** The signal has bursts of high amplitude.
 
