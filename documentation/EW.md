@@ -515,6 +515,41 @@ Electronic Support Measures (ESM) are a critical component of electronic warfare
 
 The Radar Warning Receiver (RWR) is an essential component of the ESM system focused on detecting radar signals. Its primary task is to alert the aircraft crew about potential threats from radar-equipped weapons systems.
 ![alt text](</image/generalrwr.png>)
+
+## How Signal Processing Works in RWR Systems
+#### Signal Reception
+
+
+**Radar Signal Detection:** The aircraft's antennas pick up radar signals from the environment.
+
+**Amplifying the Signal:** These signals are then made stronger by devices called intermediate amplifiers or antenna receivers.
+#### Sending to Signal Processor
+
+**Transmitting the Signal:** The now stronger signals are sent to the signal processor.
+
+**Creating Track Files:** The signal processor creates a "track file" for each signal. This file contains details about the signal, such as its frequency and strength.
+#### Comparison with EID Table
+
+**Matching Signals:** The signal processor compares the details in the track files with an Emitter Identification (EID) table.
+The EID table is like a database of known radar signals, each from different sources.
+
+**Identifying the Signal:** By comparing the track file details with the EID table, the signal processor identifies what kind of radar signal it is.
+
+### Techniques for Threat Geolocation in RWR Systems
+
+ **Triangulation**
+
+**Basic Principle:** Uses direction measurements (azimuth) from multiple sources (e.g., aircraft) to find the intersection of these measurements, known as "lines of bearing."
+
+**Accuracy:** Depends on precise aircraft position data and the angle between azimuth measurements.
+
+**Implementation:** Multiple aircraft or single aircraft over time can perform triangulation.
+
+Multiple platforms enhance accuracy but require coordination to ensure signals are from the same radar.
+![](</image/emitterlocation.png>)
+
+
+
 ### Receiving RF from Antenna
 
 The process begins with the reception of radio frequency (RF) signals from the antenna.
@@ -572,6 +607,24 @@ In electronic warfare, particularly within Electronic Support Measures (ESM), da
         - *Power*
         - *TOA (Time of Arrival)*
         - *Pulse Width (PW)*
+
+### Time of Arrival (TOA) and Time Difference of Arrival (TDOA)
+#### TOA Technique:
+**Principle:** Calculates distance based on the time taken for radar signals to travel from the transmitter to the receiver.
+
+**Challenge:** Requires accurate synchronization of signal transmission and reception times.
+
+**Implementation:**
+Involves measuring signal transmission and reception times to determine distance.Multiple receivers establish circles of possible emitter locations; intersection of these circles locates the emitter.
+
+**TDOA Technique:**
+Principle: Uses time differences between signals received at two or more receivers to determine emitter location.
+
+**Curve Calculation**: Differences in arrival times create hyperbolic curves indicating possible emitter locations.
+
+**Setup:** Requires at least three receivers (two for signal reception, one for reference) to pinpoint emitter location accurately.
+
+**Accuracy**: Dependent on precise timing and coordination among receivers to ensure reliable location data.        
 
 ## Pulse Descriptor Words (PDWs)
 
