@@ -546,8 +546,8 @@ The EID table is like a database of known radar signals, each from different sou
 **Implementation:** Multiple aircraft or single aircraft over time can perform triangulation.
 
 Multiple platforms enhance accuracy but require coordination to ensure signals are from the same radar.
-![](</image/emitterlocation.png>)
 
+![alt text](<//image/emitterlocation.png>)
 
 
 ### Receiving RF from Antenna
