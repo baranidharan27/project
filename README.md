@@ -62,7 +62,4 @@ This project uses FastAPI to create endpoints for various modules:
 ## Contributing
 
 Contributions are welcome! 
-## Contact Information
-For questions or support, please reach out to:
-- Your Name: your.email@example.com
-- GitHub: [baranidharan27]https://github.com/baranidharan27
+
